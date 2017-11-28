@@ -28,7 +28,13 @@
 );
         
         function sendSMS() {
-        	cordova.plugins.email.open();
+        	cordova.plugins.email.open({
+    to:      'max@mustermann.de',
+    cc:      'erika@mustermann.de',
+    bcc:     ['john@doe.com', 'jane@doe.com'],
+    subject: 'Greetings',
+    body:    'How are you? Nice greetings from Leipzig'
+});
         }
        
         </script>
