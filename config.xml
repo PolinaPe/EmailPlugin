@@ -23,7 +23,7 @@ Beispiel Code</description>
  
  <preference name="DisallowOverscroll" value="true" />
     <preference name="android-minSdkVersion" value="14" />
-	<gap:plugin name="cordova-plugin-email-composer" version="0.8.3" source="npm" />
+	<plugin spec="https://github.com/hypery2k/cordova-email-plugin" source="git"/>
 	<allow-intent href="mailto:*" />
 
 
